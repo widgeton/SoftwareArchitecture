@@ -8,7 +8,7 @@ public class Store {
         this.repository = repository;
     }
 
-    public Gadget sell(int index){
+    public Gadget sale(int index){
         return repository.takeGadget(index);
     }
 
