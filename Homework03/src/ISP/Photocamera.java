@@ -1,11 +1,13 @@
 package ISP;
 
 public class Photocamera extends Gadget implements Camera {
+    @Override
     public void charge() {
 
     }
 
-    public void takePicture(){
+    @Override
+    public void takePicture() {
 
     }
 }
